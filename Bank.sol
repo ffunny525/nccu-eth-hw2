@@ -102,7 +102,7 @@ contract Bank {
         // owner 的 etherBalance 增加 value
         // your code
         
-        balance[owner] -= value;
+        balance[owner] += value;
 
         // msg.sender 的 coinBalance 增加 value
         // your code
